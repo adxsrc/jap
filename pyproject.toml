@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "jap"
+version = "0.1.0-dev"
+description = "A map engine for Google's JAX"
+authors = ["Chi-kwan Chan <chanc@arizona.edu>"]
+readme = "README.rst"
+packages = [{include="jap", from="mod"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
